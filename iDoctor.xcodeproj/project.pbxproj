@@ -3,11 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A894DD42483FB9A00BCBB47 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DD12483FB9A00BCBB47 /* NetworkClient.swift */; };
+		4A894DD52483FB9A00BCBB47 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DD22483FB9A00BCBB47 /* Constants.swift */; };
+		4A894DD62483FB9A00BCBB47 /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DD32483FB9A00BCBB47 /* APIRouter.swift */; };
+		4A894DDB24844C6300BCBB47 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DDA24844C6300BCBB47 /* AccountVC.swift */; };
+		4A894DDD24844C7700BCBB47 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DDC24844C7700BCBB47 /* LoginVC.swift */; };
+		4A894DDF24844CA500BCBB47 /* SingUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DDE24844CA500BCBB47 /* SingUpVC.swift */; };
+		4A894DE5248453D500BCBB47 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DE4248453D500BCBB47 /* ProfileVC.swift */; };
+		4A894DE72484540600BCBB47 /* RatingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DE62484540600BCBB47 /* RatingVC.swift */; };
+		4A894DE92484545F00BCBB47 /* PaymmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A894DE82484545F00BCBB47 /* PaymmentVC.swift */; };
 		4ADE0B002477EE2300A2125B /* Account.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADE0AFF2477EE2300A2125B /* Account.storyboard */; };
+		A8C6323F6E5C674F01B3C2A9 /* Pods_iDoctor_iDoctorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 169CFD3577792A836E2B2F50 /* Pods_iDoctor_iDoctorUITests.framework */; };
+		D06A5430DF2A2247099EE20D /* Pods_iDoctor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E9E5F38AEC48F6521BD0F1F /* Pods_iDoctor.framework */; };
 		DA781FC9248158F100A3B183 /* WindowManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57AD24793AB90042CDC8 /* WindowManger.swift */; };
 		DA781FCA248158F100A3B183 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57AE24793AB90042CDC8 /* DataUser.swift */; };
 		DA781FCD248168DB00A3B183 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA781FCC248168DB00A3B183 /* UITabBarController.swift */; };
@@ -22,7 +33,6 @@
 		DA7B57BB24793AC60042CDC8 /* String+html.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57B124793AB90042CDC8 /* String+html.swift */; };
 		DA7B57BD24793FB10042CDC8 /* DetailsDoctorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57BC24793FB10042CDC8 /* DetailsDoctorViewController.swift */; };
 		DA90FAE024774D8900F9FB7D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90FADF24774D8900F9FB7D /* AppDelegate.swift */; };
-		DA90FAE224774D8900F9FB7D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90FAE124774D8900F9FB7D /* SceneDelegate.swift */; };
 		DA90FAE424774D8900F9FB7D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90FAE324774D8900F9FB7D /* ViewController.swift */; };
 		DA90FAE724774D8900F9FB7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90FAE524774D8900F9FB7D /* Main.storyboard */; };
 		DA90FAEA24774D8900F9FB7D /* iDoctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DA90FAE824774D8900F9FB7D /* iDoctor.xcdatamodeld */; };
@@ -30,6 +40,7 @@
 		DA90FAEF24774D8C00F9FB7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA90FAED24774D8C00F9FB7D /* LaunchScreen.storyboard */; };
 		DA90FAFA24774D8C00F9FB7D /* iDoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90FAF924774D8C00F9FB7D /* iDoctorTests.swift */; };
 		DA90FB0524774D8C00F9FB7D /* iDoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA90FB0424774D8C00F9FB7D /* iDoctorUITests.swift */; };
+		EF340770494E5B5F57FAD8D6 /* Pods_iDoctorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFB2FE887033BE11D4DBB228 /* Pods_iDoctorTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +61,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		169CFD3577792A836E2B2F50 /* Pods_iDoctor_iDoctorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDoctor_iDoctorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E9E5F38AEC48F6521BD0F1F /* Pods_iDoctor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDoctor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C834893F473B946BE1C26E8 /* Pods-iDoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctor.debug.xcconfig"; path = "Target Support Files/Pods-iDoctor/Pods-iDoctor.debug.xcconfig"; sourceTree = "<group>"; };
+		4A894DD12483FB9A00BCBB47 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		4A894DD22483FB9A00BCBB47 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A894DD32483FB9A00BCBB47 /* APIRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		4A894DDA24844C6300BCBB47 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
+		4A894DDC24844C7700BCBB47 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		4A894DDE24844CA500BCBB47 /* SingUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingUpVC.swift; sourceTree = "<group>"; };
+		4A894DE4248453D500BCBB47 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		4A894DE62484540600BCBB47 /* RatingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingVC.swift; sourceTree = "<group>"; };
+		4A894DE82484545F00BCBB47 /* PaymmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymmentVC.swift; sourceTree = "<group>"; };
+		4A927D143AD0E2D587FD544B /* Pods-iDoctor-iDoctorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctor-iDoctorUITests.release.xcconfig"; path = "Target Support Files/Pods-iDoctor-iDoctorUITests/Pods-iDoctor-iDoctorUITests.release.xcconfig"; sourceTree = "<group>"; };
 		4ADE0AFF2477EE2300A2125B /* Account.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Account.storyboard; sourceTree = "<group>"; };
+		AFB2FE887033BE11D4DBB228 /* Pods_iDoctorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDoctorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8F4A12C9D90D0D4CC125EA4 /* Pods-iDoctorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctorTests.release.xcconfig"; path = "Target Support Files/Pods-iDoctorTests/Pods-iDoctorTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA781FCC248168DB00A3B183 /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
 		DA7B57A3247937330042CDC8 /* DoctorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewCell.swift; sourceTree = "<group>"; };
 		DA7B57A4247937330042CDC8 /* DoctorsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorsTableViewCell.xib; sourceTree = "<group>"; };
@@ -67,7 +93,6 @@
 		DA7B57BC24793FB10042CDC8 /* DetailsDoctorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDoctorViewController.swift; sourceTree = "<group>"; };
 		DA90FADC24774D8900F9FB7D /* iDoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA90FADF24774D8900F9FB7D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA90FAE124774D8900F9FB7D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DA90FAE324774D8900F9FB7D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DA90FAE624774D8900F9FB7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA90FAE924774D8900F9FB7D /* iDoctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iDoctor.xcdatamodel; sourceTree = "<group>"; };
@@ -80,6 +105,9 @@
 		DA90FB0024774D8C00F9FB7D /* iDoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iDoctorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA90FB0424774D8C00F9FB7D /* iDoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iDoctorUITests.swift; sourceTree = "<group>"; };
 		DA90FB0624774D8C00F9FB7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720158AF85A93BC8CFF490C /* Pods-iDoctorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctorTests.debug.xcconfig"; path = "Target Support Files/Pods-iDoctorTests/Pods-iDoctorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF848D9A150D166265EEE3CE /* Pods-iDoctor-iDoctorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctor-iDoctorUITests.debug.xcconfig"; path = "Target Support Files/Pods-iDoctor-iDoctorUITests/Pods-iDoctor-iDoctorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB2F323A95DEA51C7CC902D /* Pods-iDoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctor.release.xcconfig"; path = "Target Support Files/Pods-iDoctor/Pods-iDoctor.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06A5430DF2A2247099EE20D /* Pods_iDoctor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF340770494E5B5F57FAD8D6 /* Pods_iDoctorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +131,104 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8C6323F6E5C674F01B3C2A9 /* Pods_iDoctor_iDoctorUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18ED06C9B6218B6F3CC94A47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E9E5F38AEC48F6521BD0F1F /* Pods_iDoctor.framework */,
+				169CFD3577792A836E2B2F50 /* Pods_iDoctor_iDoctorUITests.framework */,
+				AFB2FE887033BE11D4DBB228 /* Pods_iDoctorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A894DD02483FB2400BCBB47 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4A894DD32483FB9A00BCBB47 /* APIRouter.swift */,
+				4A894DD22483FB9A00BCBB47 /* Constants.swift */,
+				4A894DD12483FB9A00BCBB47 /* NetworkClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4A894DD724844C1D00BCBB47 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A894DD924844C3C00BCBB47 /* Main */,
+				4A894DD824844C3400BCBB47 /* Account */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4A894DD824844C3400BCBB47 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				4A894DDA24844C6300BCBB47 /* AccountVC.swift */,
+				4A894DDC24844C7700BCBB47 /* LoginVC.swift */,
+				4A894DDE24844CA500BCBB47 /* SingUpVC.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		4A894DD924844C3C00BCBB47 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				DA7B57BC24793FB10042CDC8 /* DetailsDoctorViewController.swift */,
+				DA90FAE324774D8900F9FB7D /* ViewController.swift */,
+				4A894DE4248453D500BCBB47 /* ProfileVC.swift */,
+				4A894DE62484540600BCBB47 /* RatingVC.swift */,
+				4A894DE82484545F00BCBB47 /* PaymmentVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4A894DE024844F5600BCBB47 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				DA90FAE524774D8900F9FB7D /* Main.storyboard */,
+				4ADE0AFF2477EE2300A2125B /* Account.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4A894DE224844FE000BCBB47 /* Uitlty */ = {
+			isa = PBXGroup;
+			children = (
+				DA90FAE824774D8900F9FB7D /* iDoctor.xcdatamodeld */,
+				DA90FAED24774D8C00F9FB7D /* LaunchScreen.storyboard */,
+				DA90FAEB24774D8C00F9FB7D /* Assets.xcassets */,
+			);
+			name = Uitlty;
+			sourceTree = "<group>";
+		};
+		4A894DE324844FFD00BCBB47 /* InfoPlist */ = {
+			isa = PBXGroup;
+			children = (
+				DA90FAF024774D8C00F9FB7D /* Info.plist */,
+			);
+			name = InfoPlist;
+			sourceTree = "<group>";
+		};
+		A0AB86A73004218D3B142D22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C834893F473B946BE1C26E8 /* Pods-iDoctor.debug.xcconfig */,
+				FFB2F323A95DEA51C7CC902D /* Pods-iDoctor.release.xcconfig */,
+				FF848D9A150D166265EEE3CE /* Pods-iDoctor-iDoctorUITests.debug.xcconfig */,
+				4A927D143AD0E2D587FD544B /* Pods-iDoctor-iDoctorUITests.release.xcconfig */,
+				F720158AF85A93BC8CFF490C /* Pods-iDoctorTests.debug.xcconfig */,
+				C8F4A12C9D90D0D4CC125EA4 /* Pods-iDoctorTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DA781FCB248168B500A3B183 /* tabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +271,8 @@
 				DA90FAF824774D8C00F9FB7D /* iDoctorTests */,
 				DA90FB0324774D8C00F9FB7D /* iDoctorUITests */,
 				DA90FADD24774D8900F9FB7D /* Products */,
+				A0AB86A73004218D3B142D22 /* Pods */,
+				18ED06C9B6218B6F3CC94A47 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,17 +290,13 @@
 			isa = PBXGroup;
 			children = (
 				DA90FADF24774D8900F9FB7D /* AppDelegate.swift */,
-				DA90FAE124774D8900F9FB7D /* SceneDelegate.swift */,
-				DA90FAE324774D8900F9FB7D /* ViewController.swift */,
-				DA7B57BC24793FB10042CDC8 /* DetailsDoctorViewController.swift */,
-				DA7B57A724793AB90042CDC8 /* Extention */,
+				4A894DE024844F5600BCBB47 /* Storyboard */,
+				4A894DD724844C1D00BCBB47 /* ViewController */,
 				DA7B57A2247936FD0042CDC8 /* View */,
-				DA90FAE524774D8900F9FB7D /* Main.storyboard */,
-				DA90FAEB24774D8C00F9FB7D /* Assets.xcassets */,
-				DA90FAED24774D8C00F9FB7D /* LaunchScreen.storyboard */,
-				DA90FAF024774D8C00F9FB7D /* Info.plist */,
-				DA90FAE824774D8900F9FB7D /* iDoctor.xcdatamodeld */,
-				4ADE0AFF2477EE2300A2125B /* Account.storyboard */,
+				4A894DD02483FB2400BCBB47 /* API */,
+				DA7B57A724793AB90042CDC8 /* Extention */,
+				4A894DE224844FE000BCBB47 /* Uitlty */,
+				4A894DE324844FFD00BCBB47 /* InfoPlist */,
 			);
 			path = iDoctor;
 			sourceTree = "<group>";
@@ -206,9 +326,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA90FB0924774D8C00F9FB7D /* Build configuration list for PBXNativeTarget "iDoctor" */;
 			buildPhases = (
+				4694A9DE7BBB2CB5F550C78D /* [CP] Check Pods Manifest.lock */,
 				DA90FAD824774D8900F9FB7D /* Sources */,
 				DA90FAD924774D8900F9FB7D /* Frameworks */,
 				DA90FADA24774D8900F9FB7D /* Resources */,
+				938087E44CEB7E8EC07049A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,6 +345,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA90FB0C24774D8C00F9FB7D /* Build configuration list for PBXNativeTarget "iDoctorTests" */;
 			buildPhases = (
+				89FEF3E19F722F08091C44B6 /* [CP] Check Pods Manifest.lock */,
 				DA90FAF124774D8C00F9FB7D /* Sources */,
 				DA90FAF224774D8C00F9FB7D /* Frameworks */,
 				DA90FAF324774D8C00F9FB7D /* Resources */,
@@ -241,9 +364,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DA90FB0F24774D8C00F9FB7D /* Build configuration list for PBXNativeTarget "iDoctorUITests" */;
 			buildPhases = (
+				700127D3DB41CF0E6A85B945 /* [CP] Check Pods Manifest.lock */,
 				DA90FAFC24774D8C00F9FB7D /* Sources */,
 				DA90FAFD24774D8C00F9FB7D /* Frameworks */,
 				DA90FAFE24774D8C00F9FB7D /* Resources */,
+				FD858C045C493FF8A6D9E07D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -327,6 +452,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4694A9DE7BBB2CB5F550C78D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		700127D3DB41CF0E6A85B945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDoctor-iDoctorUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89FEF3E19F722F08091C44B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iDoctorTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		938087E44CEB7E8EC07049A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDoctor/Pods-iDoctor-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDoctor/Pods-iDoctor-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDoctor/Pods-iDoctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD858C045C493FF8A6D9E07D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDoctor-iDoctorUITests/Pods-iDoctor-iDoctorUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iDoctor-iDoctorUITests/Pods-iDoctor-iDoctorUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iDoctor-iDoctorUITests/Pods-iDoctor-iDoctorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DA90FAD824774D8900F9FB7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -334,20 +562,28 @@
 			files = (
 				DA7B57B924793AC60042CDC8 /* Network.swift in Sources */,
 				DA781FCD248168DB00A3B183 /* UITabBarController.swift in Sources */,
+				4A894DDD24844C7700BCBB47 /* LoginVC.swift in Sources */,
 				DA7B57B224793AC00042CDC8 /* NetworkManger.swift in Sources */,
 				DA781FCA248158F100A3B183 /* DataUser.swift in Sources */,
+				4A894DD62483FB9A00BCBB47 /* APIRouter.swift in Sources */,
 				DA90FAEA24774D8900F9FB7D /* iDoctor.xcdatamodeld in Sources */,
 				DA7B57BA24793AC60042CDC8 /* UISearchBar.swift in Sources */,
+				4A894DDF24844CA500BCBB47 /* SingUpVC.swift in Sources */,
 				DA7B57A5247937330042CDC8 /* DoctorsTableViewCell.swift in Sources */,
 				DA7B57BD24793FB10042CDC8 /* DetailsDoctorViewController.swift in Sources */,
+				4A894DD42483FB9A00BCBB47 /* NetworkClient.swift in Sources */,
 				DA7B57B324793AC60042CDC8 /* UIView+Extention.swift in Sources */,
 				DA781FC9248158F100A3B183 /* WindowManger.swift in Sources */,
 				DA90FAE424774D8900F9FB7D /* ViewController.swift in Sources */,
+				4A894DE92484545F00BCBB47 /* PaymmentVC.swift in Sources */,
 				DA90FAE024774D8900F9FB7D /* AppDelegate.swift in Sources */,
+				4A894DE72484540600BCBB47 /* RatingVC.swift in Sources */,
 				DA7B57BB24793AC60042CDC8 /* String+html.swift in Sources */,
 				DA7B57B624793AC60042CDC8 /* TextFiledPadding.swift in Sources */,
+				4A894DDB24844C6300BCBB47 /* AccountVC.swift in Sources */,
 				DA7B57B424793AC60042CDC8 /* UIView+Extensions.swift in Sources */,
-				DA90FAE224774D8900F9FB7D /* SceneDelegate.swift in Sources */,
+				4A894DE5248453D500BCBB47 /* ProfileVC.swift in Sources */,
+				4A894DD52483FB9A00BCBB47 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +754,7 @@
 		};
 		DA90FB0A24774D8C00F9FB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C834893F473B946BE1C26E8 /* Pods-iDoctor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -536,6 +773,7 @@
 		};
 		DA90FB0B24774D8C00F9FB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFB2F323A95DEA51C7CC902D /* Pods-iDoctor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +792,7 @@
 		};
 		DA90FB0D24774D8C00F9FB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F720158AF85A93BC8CFF490C /* Pods-iDoctorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -576,6 +815,7 @@
 		};
 		DA90FB0E24774D8C00F9FB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8F4A12C9D90D0D4CC125EA4 /* Pods-iDoctorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -598,6 +838,7 @@
 		};
 		DA90FB1024774D8C00F9FB7D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF848D9A150D166265EEE3CE /* Pods-iDoctor-iDoctorUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -618,6 +859,7 @@
 		};
 		DA90FB1124774D8C00F9FB7D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A927D143AD0E2D587FD544B /* Pods-iDoctor-iDoctorUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
