@@ -22,6 +22,7 @@
 		DA781FC9248158F100A3B183 /* WindowManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57AD24793AB90042CDC8 /* WindowManger.swift */; };
 		DA781FCA248158F100A3B183 /* DataUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57AE24793AB90042CDC8 /* DataUser.swift */; };
 		DA781FCD248168DB00A3B183 /* UITabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA781FCC248168DB00A3B183 /* UITabBarController.swift */; };
+		DA781FD52483EC9500A3B183 /* FontsFree-Net-Proxima-Nova-Sbold.otf in Resources */ = {isa = PBXBuildFile; fileRef = DA781FD42483EC9500A3B183 /* FontsFree-Net-Proxima-Nova-Sbold.otf */; };
 		DA7B57A5247937330042CDC8 /* DoctorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57A3247937330042CDC8 /* DoctorsTableViewCell.swift */; };
 		DA7B57A6247937330042CDC8 /* DoctorsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA7B57A4247937330042CDC8 /* DoctorsTableViewCell.xib */; };
 		DA7B57B224793AC00042CDC8 /* NetworkManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA7B57A824793AB90042CDC8 /* NetworkManger.swift */; };
@@ -78,6 +79,8 @@
 		AFB2FE887033BE11D4DBB228 /* Pods_iDoctorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDoctorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F4A12C9D90D0D4CC125EA4 /* Pods-iDoctorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDoctorTests.release.xcconfig"; path = "Target Support Files/Pods-iDoctorTests/Pods-iDoctorTests.release.xcconfig"; sourceTree = "<group>"; };
 		DA781FCC248168DB00A3B183 /* UITabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabBarController.swift; sourceTree = "<group>"; };
+		DA781FD12483EB9C00A3B183 /* neo-sans-arabic-regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "neo-sans-arabic-regular.ttf"; sourceTree = "<group>"; };
+		DA781FD42483EC9500A3B183 /* FontsFree-Net-Proxima-Nova-Sbold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FontsFree-Net-Proxima-Nova-Sbold.otf"; sourceTree = "<group>"; };
 		DA7B57A3247937330042CDC8 /* DoctorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsTableViewCell.swift; sourceTree = "<group>"; };
 		DA7B57A4247937330042CDC8 /* DoctorsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DoctorsTableViewCell.xib; sourceTree = "<group>"; };
 		DA7B57A824793AB90042CDC8 /* NetworkManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManger.swift; sourceTree = "<group>"; };
@@ -237,6 +240,31 @@
 			path = tabBar;
 			sourceTree = "<group>";
 		};
+		DA781FCE2483EB6500A3B183 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				DA781FD32483EC7F00A3B183 /* ProximaNova */,
+				DA781FD22483EBAA00A3B183 /* neo-sans-arabic-regular */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		DA781FD22483EBAA00A3B183 /* neo-sans-arabic-regular */ = {
+			isa = PBXGroup;
+			children = (
+				DA781FD12483EB9C00A3B183 /* neo-sans-arabic-regular.ttf */,
+			);
+			path = "neo-sans-arabic-regular";
+			sourceTree = "<group>";
+		};
+		DA781FD32483EC7F00A3B183 /* ProximaNova */ = {
+			isa = PBXGroup;
+			children = (
+				DA781FD42483EC9500A3B183 /* FontsFree-Net-Proxima-Nova-Sbold.otf */,
+			);
+			path = ProximaNova;
+			sourceTree = "<group>";
+		};
 		DA7B57A2247936FD0042CDC8 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -290,8 +318,11 @@
 			isa = PBXGroup;
 			children = (
 				DA90FADF24774D8900F9FB7D /* AppDelegate.swift */,
-				4A894DE024844F5600BCBB47 /* Storyboard */,
-				4A894DD724844C1D00BCBB47 /* ViewController */,
+				DA90FAE124774D8900F9FB7D /* SceneDelegate.swift */,
+				DA90FAE324774D8900F9FB7D /* ViewController.swift */,
+				DA7B57BC24793FB10042CDC8 /* DetailsDoctorViewController.swift */,
+				DA7B57A724793AB90042CDC8 /* Extention */,
+				DA781FCE2483EB6500A3B183 /* Fonts */,
 				DA7B57A2247936FD0042CDC8 /* View */,
 				4A894DD02483FB2400BCBB47 /* API */,
 				DA7B57A724793AB90042CDC8 /* Extention */,
@@ -432,6 +463,7 @@
 				DA90FAEF24774D8C00F9FB7D /* LaunchScreen.storyboard in Resources */,
 				DA90FAEC24774D8C00F9FB7D /* Assets.xcassets in Resources */,
 				4ADE0B002477EE2300A2125B /* Account.storyboard in Resources */,
+				DA781FD52483EC9500A3B183 /* FontsFree-Net-Proxima-Nova-Sbold.otf in Resources */,
 				DA90FAE724774D8900F9FB7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
